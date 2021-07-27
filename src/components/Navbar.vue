@@ -1,10 +1,8 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded">
     <div class="container fluid justify-content-evenly">
-    <h2>LOGO</h2>
-    <!-- 
-        <img alt="Askeladd logo" src="./assets/logo.png">
-        -->
+        <img alt="Askeladd logo" src="../assets/logo.png" width="220px">
+        
     <div class="md-visually-hidden" id="navbarNav">
         <ul class="navbar-nav">
         <li class="nav-item">
