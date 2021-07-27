@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 bg-body rounded">
     <div class="container fluid justify-content-evenly">
         <img alt="Askeladd logo" src="../assets/logo.png" width="220px">
         
