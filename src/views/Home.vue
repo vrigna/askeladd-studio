@@ -5,6 +5,7 @@
     <Culture />
     <Content />
     <Contact />
+    <Footer />
   </div>
 </template>
 
