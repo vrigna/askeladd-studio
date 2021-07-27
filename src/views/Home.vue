@@ -14,6 +14,7 @@ import Contact from '@/views/Contact.vue'
 import Content from '@/views/ContentView.vue'
 import Culture from '@/views/Culture.vue'
 import Team from '@/views/Team.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
@@ -23,6 +24,7 @@ export default {
     Culture,
     Content,
     Contact,
+    Footer,
   }
 }
 </script>
