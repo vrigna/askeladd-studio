@@ -1,0 +1,46 @@
+{
+    "personal": [
+        {
+            "title": "Perseverancia",
+            "contents": "Los unicos capaces de marcar una diferencia significativa somos nosotros, perseguimos la superación personal y cuando creemos que la alcanzamos encontramos una nueva razón para no detenernos. En Askeladd buscamos el perfeccionamiento mediante la empatia, el respeto y la formación continua de cada uno de nuestros integrantes.",
+            "name": "Carlos Brignardello",
+            "job": "Lider Técnico",
+            "imagen": "carlos.jpg"
+        },
+        {
+            "title": "Keep Learn",
+            "contents": "En el mundo TI es fundamental reinventarse conforme a los avances y nuevas tecnologías que surgen, es por eso que en Askeladd creemos que la mejor manera de apuntar a la excelencia y la innovación, es, mantenerse curioso y aprendiendo constantemente. Apoyamos la idea de compartir conocimiento y avanzar en conjunto.",
+            "name": "Jazzmin Trujillo",
+            "job": "Desarrolladora",
+            "imagen": "jazzmin.jpg"
+        },
+        {
+            "title": "Confianza",
+            "contents": "Puedes tener seguridad de que todo resultará tal y mejor de lo que se espera cuando trabajas con las personas correctas. En Askeladd respaldamos apasionadamente nuestros proyectos; vive la experiencia de un ambiente sin igual, con resultados únicos impulsados por la cultura de nuestro equipo.",
+            "name": "Josh Carrizo",
+            "job": "Científico de datos",
+            "imagen": "josh.jpg"
+        },
+        {
+            "title": "Creatividad",
+            "contents": "La curiosidad, la incertidumbre de no saber que vendra por delante y poder descubrir como mejorar los procesos para planificar soluciones que generen nuevas oportunidades, nos permite consolidar nuestra creatividad. En Askeladd podemos crecer y madurar conocimiento por medio del trabajo en equipo.",
+            "name": "Juan Vasquez",
+            "job": "Productos",
+            "imagen": "juan.jpg"
+        },
+        {
+            "title": "Productividad",
+            "contents": "Para ser productivo hay que tener el compromiso de formular cambios, generarlos y luego pulirlos, apuntando siempre a la excelencia en base a la disciplina. Askeladd permite llegar a la verdad mediante investigación, utilizando procesos logicos, ordenados y claros. Buscando siempre retro alimentar a los demás.",
+            "name": "German Tabilo",
+            "job": "Desarrollador",
+            "imagen": "german.jpg"
+        },
+        {
+            "title": "Innovación",
+            "contents": "Siempre buscando nuevas formas de fumar marihuanna en la esquina, innovando en cada nueva jalada. siempre digo que es importante mezclar más de una droga sintetica para aumentar la disociación cognitiva del momento. En Askeladd creemos que por el pico la yuta.",
+            "name": "Edison Vasquez",
+            "job": "Jefe Industrial",
+            "imagen": "edison.jpg"
+        }
+    ]
+}
