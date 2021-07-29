@@ -66,7 +66,8 @@ import personalInformation from '@/components/personalInformation.vue'
 import axios from 'axios'
 
 export default {
-    name: 'ourCulture',
+    name: 'Culture',
+
     data(){
         return{
             title_carlos: null,
@@ -112,9 +113,11 @@ export default {
             faceName_edison: null
         }
     },
+
     components: {
         personalInformation
     },
+    
     async mounted() {
         let datos = await axios.get('api/personal.json')
         datos = datos.data
