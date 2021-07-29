@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="d-flex flex-column justify-content-center bg-light">
+      <div class="container"></div>
       <h2>Nuestra cultura</h2>
       <h4>Contada por nuestro propio equipo (Terrible Joya)</h4>
       <personalInformation :imagen="imagen_carlos" :title="title_carlos" :contents="contents_carlos" :name="name_carlos" :job="job_carlos" />
