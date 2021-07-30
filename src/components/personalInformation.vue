@@ -1,11 +1,13 @@
 <template>
     <div class="container">
         <div class="row">
-            <img 
-                :src="require('@/assets/' + imagen + '')" 
-                :alt="name" 
-                class="img col-3 rounded-circle mb-4" 
-            />
+            <figure class="">
+                <img 
+                    :src="require('@/assets/' + imagen + '')" 
+                    :alt="name" 
+                    class="img col-3 rounded-circle mb-4" 
+                />
+            </figure>
             <div class="col-1"/>
             <div class="col-7">
                 <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">{{ title }}</h4>
@@ -26,16 +28,23 @@ export default {
         contents: String,
         name: String,
         job: String
+    },
+    data() {
+        return {
+        }
+    },
+    computed: {
+        getBackgroundImage(){
+            return `url('@/assets/${imagen}')` 
+        }
     }
 }
 </script>
 
 <style scooped>
 .img{
-        /*Sombra morada --> filter: drop-shadow(16px 16px 20px rgb(64, 44, 139));
-        background: rgb(64, 44, 139);
-        filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);*/
-        max-width:15rem;
+    filter: grayscale(100%);
+    max-width:15rem;
 }
 </style>>
 

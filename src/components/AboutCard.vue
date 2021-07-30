@@ -1,7 +1,7 @@
 <template>
-  <div class="p-5 bg-white shadow">
+  <div class="p-5 bg-white shadow my-3">
       <h3>{{ title }}</h3>
-      <p>{{ desc }}</p>
+      <p class="ellipsis">{{ desc }}</p>
   </div>
 </template>
 
@@ -24,5 +24,9 @@ export default {
 
 
 <style>
-
+.ellipsis{
+  height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 </style>
