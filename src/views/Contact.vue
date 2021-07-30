@@ -12,10 +12,10 @@
           :titleContact="titulo1"
           :infoContact="descripcion1"
           :contactNumber="numero1" 
-          :primerDia=""
-          :ultimoDia=""
-          :horaInicio=""
-          :horaFinal=""
+          :primerDia="primerDia1"
+          :ultimoDia="ultimoDia1"
+          :horaInicio="horaInicio1"
+          :horaFinal="horaFinal1"
           :contactEmail="mail1" 
         />
 
@@ -25,10 +25,10 @@
           :titleContact="titulo2"
           :infoContact="descripcion2"
           :contactNumber="numero2" 
-          :primerDia=""
-          :ultimoDia=""
-          :horaInicio=""
-          :horaFinal=""
+          :primerDia="primerDia2"
+          :ultimoDia="ultimoDia2"
+          :horaInicio="horaInicio2"
+          :horaFinal="horaFinal2"
           :contactEmail="mail2" 
         />
 
