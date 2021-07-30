@@ -1,11 +1,18 @@
 <template>
     <div>
-        <h4> {{ titleContact }}</h4>
-        <p> {{ infoContact }}</p>
+        <h4> {{ titleContact }} </h4>
+        <p> {{ infoContact }} </p>
         <div>
-            <span> {{ contactNumber }}</span>
-            <span> {{ contactSchedule }} </span>
-            <span> {{ contactEmail }}</span>
+            <span> 
+                <i class="bi bi-telephone-fill"></i>
+                {{ contactNumber }} 
+                
+            </span>
+            <p> <b>{{ primerDia }}</b> a <b> {{ultimoDia}} </b> de <span> {{horaInicio}}</span> a <span> {{horaFinal}} </span></p>
+            <span> 
+                <i class="bi bi-envelope-fill"></i>
+                {{ contactEmail }} 
+            </span>
         </div>
    </div>
 </template>
@@ -17,7 +24,10 @@ export default {
         titleContact: String,
         infoContact: String,
         contactNumber: String,
-        contactSchedule: String,
+        primerDia: String,
+        ultimoDia: String,
+        horaInicio: String,
+        horaFinal: String,
         contactEmail: String
     }
 }

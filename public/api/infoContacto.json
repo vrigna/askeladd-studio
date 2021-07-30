@@ -4,14 +4,20 @@
             "subtitle": "CONTACTANOS",
             "contents": "LLama contrata y paga",
             "numero": "99999999",
-            "horario": "Depende si vas a comprar",
+            "diaInicio": "Lunes",
+            "diaFinal": "Sábado",
+            "horaInicio": "08:00 hrs",
+            "horaFinal": "18:00 hrs",
             "mail": "askeladdd@ventas.cl"
         },
         {
             "subtitle": "ASISTENCIA",
             "contents": "Contactanos y brindaremos ayuda en lo que necesites",
             "numero": "No existe",
-            "horario": "Solo 29 de Febrero",
+            "diaInicio": "Lunes",
+            "diaFinal": "Sábado",
+            "horaInicio": "08:00 hrs",
+            "horaFinal": "18:00 hrs",
             "mail": "askeladdd@soporte.cl"
         }
     ]
