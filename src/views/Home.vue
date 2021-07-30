@@ -17,12 +17,17 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="w-100 h-100 bg-primary"></div>
+            <div :style="bgMainImage" style="background-position: center; background-size: cover;" class="w-100 h-100 bg-primary">
+              <div class="w-100 h-100 bg-primary" style="opacity: 0.5"></div>
+            </div>
+            <!-- 
+              <img :src="require('@/assets/main.jpg')" style="background-image: url('@/assets/main.jpg')" class="w-100 h-100 bg-primary"/>
+             -->
           </div>
         </div>
       </div>
     </main>
-
+    <Sandia />
     <About />
     <Team />
     <Culture />
@@ -34,21 +39,29 @@
 
 <script>
 import About from '@/views/About.vue'
-import Contact from '@/views/Contact.vue'
+import Sandia from '@/views/Sandia.vue'
 import Content from '@/views/ContentView.vue'
-import Culture from '@/views/Culture.vue'
 import Team from '@/views/Team.vue'
+import Culture from '@/views/Culture.vue'
+import Contact from '@/views/Contact.vue'
 import Footer from '@/components/Footer.vue'
+import MainImage from '@/assets/main.jpg'
 
 export default {
   name: 'Home',
   components: {
     About,
+    Sandia,
     Team,
     Culture,
     Content,
     Contact,
     Footer,
-  }
+  },
+  data() {
+    return {
+      bgMainImage: `background-image: url(${MainImage})`,
+    }
+  },
 }
 </script>

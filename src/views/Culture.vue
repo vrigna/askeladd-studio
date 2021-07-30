@@ -5,7 +5,7 @@
         <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo (Terrible Joya)</h4>
         <br><br>
         <personalInformation 
-            :imagen="faceName_carlos"
+            :imagen="carlos2.png"
             :title="title_carlos"
             :contents="contents_carlos" 
             :name="name_carlos" 
