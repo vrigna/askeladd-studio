@@ -1,20 +1,24 @@
 <template>
-  <div class="container vh-100">
-    <h1>Contact</h1>
-    <contacto
-      :titleContact="titulo1"
-      :infoContact="descripcion1"
-      :contactNumber="numero1" 
-      :contactSchedule="horario1" 
-      :contactEmail="mail1" 
-    />
-    <contacto
-      :titleContact="titulo2"
-      :infoContact="descripcion2"
-      :contactNumber="numero2" 
-      :contactSchedule="horario2" 
-      :contactEmail="mail2" 
-    />
+  <div class="vh-100 d-flex flex-column justify-content-center bg-light">
+    <div class="row container">
+      <h1>Contact</h1>
+      <contacto class="col-5 text-center"
+        :titleContact="titulo1"
+        :infoContact="descripcion1"
+        :contactNumber="numero1" 
+        :contactSchedule="horario1" 
+        :contactEmail="mail1" 
+        
+      />
+      <div class="col-2"></div>
+      <contacto class="col-5 text-center"
+        :titleContact="titulo2"
+        :infoContact="descripcion2"
+        :contactNumber="numero2" 
+        :contactSchedule="horario2" 
+        :contactEmail="mail2" 
+      />
+    </div>
     
   </div>
 </template>
@@ -24,7 +28,7 @@ import contacto from '@/components/contacto.vue'
 import axios from 'axios'
 
 export default {
-    name: 'Contact',
+    name:"Contact",
 
     data(){
       return{
@@ -62,8 +66,6 @@ export default {
         this.numero2 = datos.info[1].numero
         this.horario2 = datos.info[1].horario
         this.mail2 = datos.info[1].mail
-
-
     }
 }
 </script>

@@ -32,11 +32,11 @@ export default {
 
 <style scooped>
 .img{
-    /*Sombra morada --> filter: drop-shadow(16px 16px 20px rgb(64, 44, 139));
-    background: rgb(64, 44, 139);
-    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);*/
-    filter: drop-shadow(16px 16px 20px rgb(18, 14, 32));
-    max-width:15rem;
+        /*Sombra morada --> filter: drop-shadow(16px 16px 20px rgb(64, 44, 139));
+        background: rgb(64, 44, 139);
+        filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);*/
+        filter: drop-shadow(16px 16px 20px rgb(18, 14, 32));
+        max-width:15rem;
 }
 </style>>
 
