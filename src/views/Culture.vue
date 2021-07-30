@@ -5,7 +5,7 @@
         <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo (Terrible Joya)</h4>
         <br><br>
         <personalInformation 
-            :imagen="carlos2.png"
+            :imagen="face_carlos2"
             :title="title_carlos"
             :contents="contents_carlos" 
             :name="name_carlos" 
@@ -14,7 +14,7 @@
         <br>
 
         <personalInformation 
-            :imagen="faceName_jazzmin"
+            :imagen="face_jazzmin"
             :title="title_jazzmin" 
             :contents="contents_jazzmin" 
             :name="name_jazzmin" 
@@ -23,7 +23,7 @@
         <br>
 
         <personalInformation 
-            :imagen="faceName_josh"
+            :imagen="face_josh"
             :title="title_josh" 
             :contents="contents_josh" 
             :name="name_josh" 
@@ -32,7 +32,7 @@
         <br>    
 
         <personalInformation 
-            :imagen="faceName_juan"
+            :imagen="face_juan2"
             :title="title_juan" 
             :contents="contents_juan" 
             :name="name_juan" 
@@ -41,7 +41,7 @@
         <br>
 
         <personalInformation 
-            :imagen="faceName_german"
+            :imagen="face_german"
             :title="title_german" 
             :contents="contents_german" 
             :name="name_german" 
@@ -50,7 +50,7 @@
         <br>
         
         <personalInformation 
-            :imagen="faceName_edison"
+            :imagen="face_edison"
             :title="title_edison" 
             :contents="contents_edison" 
             :name="name_edison" 
@@ -126,37 +126,42 @@ export default {
         this.contents_carlos = datos.personal[0].contents
         this.name_carlos = datos.personal[0].name
         this.job_carlos = datos.personal[0].job
-        this.faceName_carlos = datos.personal[0].imagen
+        this.face_carlos = datos.personal[0].imagen
+        this.face_carlos2 = datos.personal[0].imagen2
 
         this.title_jazzmin = datos.personal[1].title
         this.contents_jazzmin = datos.personal[1].contents
         this.name_jazzmin = datos.personal[1].name
         this.job_jazzmin = datos.personal[1].job
-        this.faceName_jazzmin = datos.personal[1].imagen
+        this.face_jazzmin = datos.personal[1].imagen
+        this.face_jazzmin2 = datos.personal[1].imagen2
 
         this.title_josh = datos.personal[2].title
         this.contents_josh = datos.personal[2].contents
         this.name_josh = datos.personal[2].name
         this.job_josh = datos.personal[2].job
-        this.faceName_josh = datos.personal[2].imagen2
+        this.face_josh = datos.personal[2].imagen
+        this.face_josh2 = datos.personal[2].imagen2
 
         this.title_juan = datos.personal[3].title
         this.contents_juan = datos.personal[3].contents
         this.name_juan = datos.personal[3].name
         this.job_juan = datos.personal[3].job
-        this.faceName_juan = datos.personal[3].imagen
+        this.face_juan = datos.personal[3].imagen
+        this.face_juan2 = datos.personal[3].imagen2
 
         this.title_german = datos.personal[4].title
         this.contents_german = datos.personal[4].contents
         this.name_german = datos.personal[4].name
         this.job_german = datos.personal[4].job
-        this.faceName_german = datos.personal[4].imagen
+        this.face_german = datos.personal[4].imagen
+        this.face_german2 = datos.personal[4].imagen2
 
         this.title_edison = datos.personal[5].title
         this.contents_edison = datos.personal[5].contents
         this.name_edison = datos.personal[5].name
         this.job_edison = datos.personal[5].job
-        this.faceName_edison = datos.personal[5].imagen
+        this.face_edison = datos.personal[5].imagen
 
     }
 
