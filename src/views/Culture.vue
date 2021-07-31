@@ -2,7 +2,7 @@
   <div class="d-flex flex-column justify-content-center bg-light">
       <div class="container">
         <h2 class="font-weight-bold text-primary display-4 text-center" style="font-family: Poppins">Nuestra cultura</h2>
-        <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo (Terrible Joya)</h4>
+        <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo</h4>
         <br><br>
         <personalInformation 
             :imagen="face_carlos2"
