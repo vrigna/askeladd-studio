@@ -3,12 +3,14 @@
   <div class="vh-100 justify-content-center bg-light">
 
     <div class="container">
-
+      <br>
+      <h2 class="font-weight-bold text-primary display-4 " style="font-family: Poppins">Contacto</h2>
+      <br><br>
       <div class="row">
 
-        <h1>Contact</h1>
+        
 
-        <contacto class="card col-5 text-center"
+        <contacto class="col-5 "
           :titleContact="titulo1"
           :infoContact="descripcion1"
           :contactNumber="numero1" 
@@ -21,7 +23,7 @@
 
         <div class="col-2"></div>
 
-        <contacto class="col-5 text-center"
+        <contacto class="col-5 "
           :titleContact="titulo2"
           :infoContact="descripcion2"
           :contactNumber="numero2" 

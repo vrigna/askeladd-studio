@@ -8,7 +8,15 @@
                 {{ contactNumber }} 
                 
             </span>
-            <p> <b>{{ primerDia }}</b> a <b> {{ultimoDia}} </b> de <span> {{horaInicio}}</span> a <span> {{horaFinal}} </span></p>
+            <p> 
+                <b>{{ primerDia }}</b> 
+                a 
+                <b> {{ultimoDia}} </b> 
+                de 
+                <span class="text-secondary font-weight-bold" style="font-family: Poppins"> {{horaInicio}}</span>
+                a 
+                <span class="text-secondary font-weight-bold" style="font-family: Poppins"> {{horaFinal}} </span>
+            </p>
             <span> 
                 <i class="bi bi-envelope-fill"></i>
                 {{ contactEmail }} 

@@ -1,24 +1,24 @@
 {
     "info": [
         {
-            "subtitle": "CONTACTANOS",
-            "contents": "LLama contrata y paga",
-            "numero": "99999999",
+            "subtitle": "Contratanos",
+            "contents": "Si quieres información, asesoramiento sobre nuestros servicios o algún proyecto que busques digitalizar.",
+            "numero": "+ 56 9 75146568",
             "diaInicio": "Lunes",
-            "diaFinal": "Sábado",
-            "horaInicio": "08:00 hrs",
+            "diaFinal": "Viernes",
+            "horaInicio": "09:00 hrs",
             "horaFinal": "18:00 hrs",
-            "mail": "askeladdd@ventas.cl"
+            "mail": "contact@askeladd.com"
         },
         {
-            "subtitle": "ASISTENCIA",
-            "contents": "Contactanos y brindaremos ayuda en lo que necesites",
-            "numero": "No existe",
+            "subtitle": "Asistencia técnica",
+            "contents": "Si ya estas trabajando con nosotros puedes contactar con el equipo de soporte o con el equipo de desarrollo.",
+            "numero": "+ 56 9 74563823",
             "diaInicio": "Lunes",
-            "diaFinal": "Sábado",
+            "diaFinal": "Domingo",
             "horaInicio": "08:00 hrs",
-            "horaFinal": "18:00 hrs",
-            "mail": "askeladdd@soporte.cl"
+            "horaFinal": "20:00 hrs",
+            "mail": "support@askeladd.com"
         }
     ]
 }
