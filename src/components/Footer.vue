@@ -1,26 +1,22 @@
 <template>
 
 <footer class="text-center text-white bg-dark">
-  <div class="container p-5">
- <!--google+ -->
+  <div id="app" class="container pt-5 pb-1 text-center " >
+    <a class="li-ic"> 
+      <font-awesome-icon icon="ad" class="fa-4x px-2"/>
+    </a>
     <a class="li-ic">
-      <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">google+ </i>
-   </a>
- <!--Linkedin-->
+      <font-awesome-icon icon="ad" class="fa-4x px-2"/>
+    </a>
     <a class="li-ic">
-      <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">Linkedin</i>
-   </a>
- <!-- facebook -->
-    <a class="li-ic">
-      <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">facebook</i>
-   </a>
-    <!---Instagram--->
+      <font-awesome-icon icon="ad" class="fa-4x px-2"/>
+    </a>
     <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">Insta</i>
-          </a>
+      <font-awesome-icon icon="ad" class="fa-4x px-2"/>
+    </a>
   </div>
   <!--texto askeladd--->
-  <div class="text-center text-light p-3 font-size">
+  <div class="text-center text-light p-1 pb-5 font-size">
     2021
     <a class="text-white" href="https://askeladdStudio.com/">Askeladd, inc.</a>
     All Rights Reserved.
