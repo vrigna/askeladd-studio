@@ -2,12 +2,25 @@
   <div class="container vh-100">
     <div class="row">
       <div class="col-5">
+        <br><br>
+        <div class="contenedor-img">
+          <img 
+              :src="require('@/assets/contentimg.jpeg')" 
+              :alt="name" 
+              class="h-60 w-60 mb-4 rounded img-content" 
+          >
+          <h3 class="text-img1">Contenido</h3>
+          <p class="text-img2">Repositorio de contenido, con aportes de cada miembro de Askeladd. Aprende con nosotros!</p>
+          
+          <p class="font-weight-bold text-img3">Accede al contenido en Notion</p>
+        </div>
+
       </div>
           <div class="col-5">
             <br><br>
             <h3 class="mb-3 text-primary d-block font-weight-bold" style="font-family: Poppins"> Desde Askeladd hacia la comunidad</h3>
             <p>En Askeladd nos preocupamos por documentar procesos, crear apuntes guía, y crear contenido en forma de post o video, que sirva tanto a nuesto equipo interno como a cualquier persona que lo necesite.</p>
-            <p>Es por eso que habilitamos un Notion abierto, en el que podrás encontrar una sección de contenido con apuntes y  paso a pasos. Una biblioteca con libros del mejor nivel y sobre muchos géneros. Y por último, encontraras recursos utiles para la etapa de desarrollo y diseño. Esperamos que lo disfrutes! </p>
+            <p>Es por eso que habilitamos un <b>Notion</b> abierto, en el que podrás encontrar una sección de contenido con apuntes y  paso a pasos. Una biblioteca con libros del mejor nivel y sobre muchos géneros. Y por último, encontraras recursos utiles para la etapa de desarrollo y diseño. Esperamos que lo disfrutes! </p>
             <div class="row">
                 <div class="col-6">
                   <hr>
@@ -39,9 +52,38 @@ export default {
 }
 </script>
 
-<style>
+<style scooped>
 hr {
   color: black;
   background-color: black; 
+}
+.img-content {
+  height: 18rem;
+  filter: grayscale(100%);
+  
+}
+
+.contenedor-img{
+  position: relative;
+}
+
+.text-img1{
+    position: absolute;
+    margin:1rem;
+    top: 10rem;
+    color:white;
+
+}
+.text-img2{
+    position: absolute;
+    margin:1rem;
+    top: 12rem;
+    color:white;
+}
+.text-img3{
+    position: absolute;
+    margin:1rem;
+    top: 15rem;
+    color:white;
 }
 </style>
