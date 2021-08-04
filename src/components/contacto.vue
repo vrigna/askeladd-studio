@@ -4,7 +4,9 @@
         <p> {{ infoContact }} </p>
         <div>
             <span> 
-                <i class="bi bi-telephone-fill"></i>
+                <a href="#">
+                <font-awesome-icon :icon="[ 'fab', 'phone-alt' ]" class="fa-4x px-2"/>
+                </a>
                 {{ contactNumber }} 
                 
             </span>
@@ -18,7 +20,7 @@
                 <span class="text-secondary font-weight-bold" style="font-family: Poppins"> {{horaFinal}} </span>
             </p>
             <span> 
-                <i class="bi bi-envelope-fill"></i>
+                <font-awesome-icon :icon="[ 'fab', 'envelope' ]" class="fa-4x px-2"/>
                 {{ contactEmail }} 
             </span>
         </div>
@@ -42,5 +44,15 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+  .font{
+    font-family: 'Poppins';
+  }
+  a{
+    color: white;
+  }
+  a:hover{
+    color: #D1BCFE;
+  }
 </style>
