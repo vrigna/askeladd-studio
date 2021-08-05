@@ -4,9 +4,9 @@
     <main>
       <div class="bg-light">
         <div class="row vh-100">
-          <div class="col-6 d-flex align-items-center">
-            <div class="mx-auto w-50">
-              <h1>Digitaliza tu sandia</h1>
+          <div class="col-lg-6 col-md-12 d-flex align-items-center">
+            <div class="mx-auto main__container">
+              <h1 class="font-weight-bold" style="font-family: Poppins">Digitaliza tu <span class=" text-primary">sandia</span></h1>
               <p>Somos un estudio de desarrollo digital basado en las nuevas tecnologías, conformado de un equipo de expertos apasionados por el diseño, la programación y la creatividad preparados para construir tú idea.</p>
               <p>En <strong>Askeladd Studio</strong> desarrollamos soluciones unicas e innovadoras combinando la ingeniería del desarrollo y la creatividad del diseño con una cultura unica de libertad creativa y continuo aprendizaje.</p>
               <div class="d-flex justify-content-between">
@@ -16,7 +16,7 @@
 
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6 d-none d-lg-block">
             <div :style="bgMainImage" style="background-position: center; background-size: cover;" class="w-100 h-100 bg-primary">
               <div class="w-100 h-100 bg-primary" style="opacity: 0.5"></div>
             </div>
@@ -65,3 +65,32 @@ export default {
   },
 }
 </script>
+<style scoped>
+.main__container{
+  width: 55%;
+}
+
+@media only screen and (max-width: 1440px) {
+   .main__container{
+     width: 75%;
+   }
+}
+@media only screen and (max-width: 1024px) {
+   .main__container{
+     width: 90%;
+   }
+}
+@media only screen and (max-width: 768px) {
+   .main__container{
+   }
+}
+@media only screen and (max-width: 425px) {
+   .main__container{
+   }
+}
+@media only screen and (max-width: 320px) {
+   .main__container{
+   }
+}
+
+</style>
