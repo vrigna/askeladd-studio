@@ -3,7 +3,7 @@
     <div class="container fluid justify-content-evenly">
         <img alt="Askeladd logo" src="../assets/logo.png" width="220px">
         
-    <div class="md-visually-hidden" id="navbarNav">
+    <div class="d-none d-lg-block " id="navbarNav">
         <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
