@@ -22,7 +22,7 @@
           <TeamCard faceName="german2.png" name="German Tabilo" rol="Back End Developer"/>
         </div>
         <div class="col-4">
-          <TeamCard faceName="jazz2.png" name="Jasmín Trujillo" rol="Full Stack Developer"/>
+          <TeamCard faceName="jazz2.png" name="Jazmín Trujillo" rol="Full Stack Developer"/>
         </div>
       </div>
     </div>
