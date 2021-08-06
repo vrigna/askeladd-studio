@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="py-3">
     <font-awesome-icon :icon="[ iconType, icon ]" class="text-light fa-5x p-2 icon bg-primary rounded"/>
     <div class="ellipsis d-flex flex-column justify-content-center bg-white shadow mb-5
      p-5">

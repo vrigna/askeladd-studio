@@ -4,7 +4,7 @@
         <h2 class="font-weight-bold text-primary display-4 text-center" style="font-family: Poppins">Nuestra cultura</h2>
         <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo</h4>
         <br><br>
-        <personalInformation 
+        <CultureCard
             :imagen="face_carlos2"
             :title="title_carlos"
             :contents="contents_carlos" 
@@ -13,7 +13,7 @@
 
         <br>
 
-        <personalInformation 
+        <CultureCard 
             :imagen="face_jazzmin"
             :title="title_jazzmin" 
             :contents="contents_jazzmin" 
@@ -22,7 +22,7 @@
 
         <br>
 
-        <personalInformation 
+        <CultureCard
             :imagen="face_josh"
             :title="title_josh" 
             :contents="contents_josh" 
@@ -31,7 +31,7 @@
 
         <br>    
 
-        <personalInformation 
+        <CultureCard 
             :imagen="face_juan2"
             :title="title_juan" 
             :contents="contents_juan" 
@@ -40,7 +40,7 @@
 
         <br>
 
-        <personalInformation 
+        <CultureCard 
             :imagen="face_german"
             :title="title_german" 
             :contents="contents_german" 
@@ -49,7 +49,7 @@
 
         <br>
         
-        <personalInformation 
+        <CultureCard 
             :imagen="face_edison"
             :title="title_edison" 
             :contents="contents_edison" 
@@ -62,7 +62,7 @@
 
 <script>
 
-import personalInformation from '@/components/personalInformation.vue'
+import CultureCard from '@/components/CultureCard.vue'
 import axios from 'axios'
 
 export default {
@@ -115,7 +115,7 @@ export default {
     },
 
     components: {
-        personalInformation
+        CultureCard,
     },
     
     async mounted() {
