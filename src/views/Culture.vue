@@ -14,7 +14,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PERSEVERANCIA</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PER<strong>S</strong>EVERANCIA</h4>
                     <p>Los unicos capaces de marcar una diferencia significativa somos nosotros, perseguimos la superación personal y cuando creemos que la alcanzamos encontramos una nueva razón para no detenernos. En Askeladd buscamos el perfeccionamiento mediante la empatia, el respeto y la formación continua de cada uno de nuestros integrantes.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">Carlos Brignardello</span>
                     <p class="text-primary d-block font-weight-bold"> Lider Tecnico</p>
@@ -32,7 +32,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">KEEP LEARN</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">KEEP LE<strong>A</strong>RN</h4>
                     <p>En el mundo TI es fundamental reinventarse conforme a los avances y nuevas tecnologías que surgen, es por eso que en Askeladd creemos que la mejor manera de apuntar a la excelencia y la innovación, es, mantenerse curioso y aprendiendo constantemente. Apoyamos la idea de compartir conocimiento y avanzar en conjunto.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">Jazmin Trujillo</span>
                     <p class="text-primary d-block font-weight-bold">Desarrolladora</p>
@@ -50,7 +50,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CONFIANZA</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CO<strong>N</strong>FIANZA</h4>
                     <p>Puedes tener seguridad de que todo resultará tal y mejor de lo que se espera cuando trabajas con las personas correctas. En Askeladd respaldamos apasionadamente nuestros proyectos; vive la experiencia de un ambiente sin igual, con resultados únicos impulsados por la cultura de nuestro equipo.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">David Carrizo</span>
                     <p class="text-primary d-block font-weight-bold">Cientifico de Datos</p>
@@ -68,7 +68,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CREATIVIDAD</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CREATIVI<strong>D</strong>AD</h4>
                     <p>La curiosidad, la incertidumbre de no saber que vendra por delante y poder descubrir como mejorar los procesos para planificar soluciones que generen nuevas oportunidades, nos permite consolidar nuestra creatividad. En Askeladd podemos crecer y madurar conocimiento por medio del trabajo en equipo.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">Juan Vasquez</span>
                     <p class="text-primary d-block font-weight-bold">Desarrollador</p>
@@ -86,7 +86,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PRODUCTIVIDAD</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PRODUCT<strong>I</strong>VIDAD</h4>
                     <p>Para ser productivo hay que tener el compromiso de formular cambios, generarlos y luego pulirlos, apuntando siempre a la excelencia en base a la disciplina. Askeladd permite llegar a la verdad mediante investigación, utilizando procesos logicos, ordenados y claros. Buscando siempre retro alimentar a los demás.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">German Tabilo</span>
                     <p class="text-primary d-block font-weight-bold">Desarrollador</p>
@@ -104,7 +104,7 @@
                 </figure>
                 <div class="col-lg-1 d-lg-block d-none"/>
                 <div class="col-lg-7 col-md-12">
-                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">INNOVACIÓN</h4>
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">INNOV<strong>A</strong>CIÓN</h4>
                     <p>La creatividad, el conocimiento y la inspiración son las herramientas que nos permiten construir el camino hacia el futuro que queremos crear. En Askeladd tenemos el talento para transformar tu negocio en lo que buscas. Si tú puedes imaginarlo, nosotros podemos crearlo.                                                                                                             - “No tengo talentos especiales, yo sólo soy apasionadamente curioso”.</p>
                     <span class="d-block font-weight-bold" style="font-family: Poppins">Edison Vasquez</span>
                     <p class="text-primary d-block font-weight-bold">Jefe industrial</p>
@@ -153,5 +153,8 @@ export default {
         background-position: center; background-size: cover; width: 250px; height: 250px;
         display: block;
         margin: 0 auto;
+    }
+    strong{
+        color: #D1BCFE;
     }
 </style>
