@@ -1,6 +1,6 @@
 <template>
 
-  <div class="vh-100 justify-content-center bg-light">
+  <div class="vh-100 d-flex align-items-center bg-light" id="contact">
 
     <div class="container">
       <br>

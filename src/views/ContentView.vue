@@ -1,13 +1,13 @@
 <template>
-  <div class="container vh-100">
+  <div class="container d-flex align-items-center min-vh-100" id="content">
     <div class="row">
-      <div class="col-5">
+      <div class="col-lg-6 col-md-12">
         <br><br>
         <div class="contenedor-img">
           <img 
               :src="require('@/assets/contentimg.jpeg')" 
               :alt="name" 
-              class="h-60 w-60 mb-4 rounded img-content" 
+              class="h-60 w-100 mb-4 rounded img-content" 
           >
           <h3 class="text-img1">Contenido</h3>
           <p class="text-img2">Repositorio de contenido, con aportes de cada miembro de Askeladd. Aprende con nosotros!</p>
@@ -16,8 +16,7 @@
         </div>
 
       </div>
-      <div class="col"></div>
-      <div class="col-5">
+      <div class="col-lg-6 col-md-12">
         <br><br>
         <h3 class="mb-3 text-primary d-block font-weight-bold" style="font-family: Poppins"> Desde Askeladd hacia la comunidad</h3>
         <p>En Askeladd nos preocupamos por documentar procesos, crear apuntes guía, y crear contenido en forma de post o video, que sirva tanto a nuesto equipo interno como a cualquier persona que lo necesite.</p>

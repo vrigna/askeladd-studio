@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light d-flex align-items-center text-dark py-5">
+  <div class="bg-light d-flex align-items-center text-dark py-5" id="team">
     <div class="container">
       <div class="">
         <h2 class="font-weight-bold text-primary display-4 text-center" style="font-family: Poppins">Conoce a nuestro Team</h2>
