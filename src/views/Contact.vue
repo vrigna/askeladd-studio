@@ -1,6 +1,6 @@
 <template>
 
-  <div class="vh-100 d-flex align-items-center bg-light" id="contact">
+  <div class="min-vh-100 d-flex align-items-center bg-light py-5" id="contact">
 
     <div class="container">
       <br>
@@ -8,22 +8,18 @@
       <br><br>
       <div class="row">
 
-        
-
-        <contacto class="col-5 "
-          :titleContact="titulo1"
-          :infoContact="descripcion1"
+        <ContactCard class="col-md-6"
+          :titleContact="titulo1" 
+          :infoContact="descripcion1" 
           :contactNumber="numero1" 
-          :primerDia="primerDia1"
-          :ultimoDia="ultimoDia1"
-          :horaInicio="horaInicio1"
-          :horaFinal="horaFinal1"
+          :primerDia="primerDia1" 
+          :ultimoDia="ultimoDia1" 
+          :horaInicio="horaInicio1" 
+          :horaFinal="horaFinal1" 
           :contactEmail="mail1" 
         />
 
-        <div class="col-2"></div>
-
-        <contacto class="col-5 "
+        <ContactCard class="col-md-6 py-md-0 py-5"
           :titleContact="titulo2"
           :infoContact="descripcion2"
           :contactNumber="numero2" 
@@ -42,7 +38,7 @@
 
 <script>
 
-import contacto from '@/components/contacto.vue'
+import ContactCard from '@/components/ContactCard.vue'
 import axios from 'axios'
 
 export default {
@@ -72,7 +68,7 @@ export default {
     },
 
     components:{
-      contacto
+      ContactCard,
     },
 
     async mounted() {

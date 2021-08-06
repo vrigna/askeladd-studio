@@ -23,7 +23,7 @@
           <p>En Askeladd nos preocupamos por documentar procesos, crear apuntes guía, y crear contenido en forma de post o video, que sirva tanto a nuesto equipo interno como a cualquier persona que lo necesite.</p>
           <p>Es por eso que habilitamos un <b>Notion</b> abierto, en el que podrás encontrar una sección de contenido con apuntes y  paso a pasos. Una biblioteca con libros del mejor nivel y sobre muchos géneros. Y por último, encontraras recursos utiles para la etapa de desarrollo y diseño. Esperamos que lo disfrutes! </p>
           <div class="row">
-              <div class="col-6">
+              <div class="col-md-6 col-12">
                 <hr>
                 <h4 class="mb-3 text-primary d-block font-weight-bold" style="font-family: Poppins"> Apuntes </h4>
                 <h3 class="mb-3 d-block font-weight-bold" style="font-family: Poppins"> 24</h3>

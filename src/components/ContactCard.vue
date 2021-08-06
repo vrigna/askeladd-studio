@@ -29,7 +29,7 @@
 
 <script>
 export default {
-    name: 'contacto',
+    name: 'ContactCard',
     props: {
         titleContact: String,
         infoContact: String,
