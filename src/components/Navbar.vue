@@ -5,24 +5,24 @@
         
     <div class="d-none d-lg-block " id="navbarNav">
         <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Culture</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Content</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link text-primary" href="#">Home</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link" href="#culture">Culture</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link" href="#content">Content</a>
+            </li>
+            <li class="nav-item font-weight-bold">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
         </ul>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,5 +39,9 @@ export default {
 </script>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+  .navbar {
+    font-family: 'Poppins';
+  }
 </style>
