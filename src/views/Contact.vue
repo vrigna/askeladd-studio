@@ -1,6 +1,6 @@
 <template>
 
-  <div class="min-vh-100 d-flex align-items-center bg-light py-5" id="contact">
+  <div class="d-flex align-items-center bg-light pb-5" id="contact">
 
     <div class="container">
       <br>
@@ -8,27 +8,58 @@
       <br><br>
       <div class="row">
 
-        <ContactCard class="col-md-6"
-          :titleContact="titulo1" 
-          :infoContact="descripcion1" 
-          :contactNumber="numero1" 
-          :primerDia="primerDia1" 
-          :ultimoDia="ultimoDia1" 
-          :horaInicio="horaInicio1" 
-          :horaFinal="horaFinal1" 
-          :contactEmail="mail1" 
-        />
-
-        <ContactCard class="col-md-6 py-md-0 py-5"
-          :titleContact="titulo2"
-          :infoContact="descripcion2"
-          :contactNumber="numero2" 
-          :primerDia="primerDia2"
-          :ultimoDia="ultimoDia2"
-          :horaInicio="horaInicio2"
-          :horaFinal="horaFinal2"
-          :contactEmail="mail2" 
-        />
+        <div class="col-md-6">
+          <h4> Contrátanos </h4>
+          <p> Si quieres información, asesoramiento sobre nuestros servicios o algún proyecto que busques digitalizar. </p>
+          <div>
+              <span> 
+                  <a href="#">
+                  <font-awesome-icon :icon="[ 'fab', 'phone-alt' ]" class="fa-4x px-2"/>
+                  </a>
+                  + 56 9 75146568
+                  
+              </span>
+              <p> 
+                  <b>Lunes</b> 
+                  a 
+                  <b> Viernes </b> 
+                  de 
+                  <span class="text-secondary font-weight-bold" style="font-family: Poppins"> 09:00 hrs</span>
+                  a 
+                  <span class="text-secondary font-weight-bold" style="font-family: Poppins"> 18:00 hrs </span>
+              </p>
+              <span> 
+                  <font-awesome-icon :icon="[ 'fab', 'envelope' ]" class="fa-4x px-2"/>
+                    contact@askeladd.com
+              </span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4> Asistencia técnica </h4>
+          <p> Si ya estas trabajando con nosotros puedes contactar con el equipo de soporte o con el equipo de desarrollo.</p>
+          <div>
+              <span> 
+                  <a href="#">
+                  <font-awesome-icon :icon="[ 'fab', 'phone-alt' ]" class="fa-4x px-2"/>
+                  </a>
+                  + 56 9 74563823
+                  
+              </span>
+              <p> 
+                  <b>Lunes</b> 
+                  a 
+                  <b> Domingo </b> 
+                  de 
+                  <span class="text-secondary font-weight-bold" style="font-family: Poppins"> 09:00 hrs</span>
+                  a 
+                  <span class="text-secondary font-weight-bold" style="font-family: Poppins"> 20:00 hrs </span>
+              </p>
+              <span> 
+                  <font-awesome-icon :icon="[ 'fab', 'envelope' ]" class="fa-4x px-2"/>
+                    support@askeladd.com
+              </span>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -38,63 +69,17 @@
 
 <script>
 
-import ContactCard from '@/components/ContactCard.vue'
-import axios from 'axios'
-
 export default {
     name:"Contact",
 
     data(){
       return{
-        titulo1: null,
-        descripcion1: null,
-        numero1: null,
-        mail1: null,
-        primerDia1: null,
-        ultimoDia1: null,
-        horaInicio1: null,
-        horaFinal1: null,
-
-        titulo2: null,
-        descripcion2: null,
-        numero2: null,
-        mail2: null,
-        primerDia2: null,
-        ultimoDia2: null,
-        horaInicio2: null,
-        horaFinal2: null,
 
       }
     },
-
     components:{
-      ContactCard,
     },
 
-    async mounted() {
-        let datos = await axios.get('api/infoContacto.json')
-        datos = datos.data
-
-        console.log(datos.data)
-
-        this.titulo1 = datos.info[0].subtitle
-        this.descripcion1 = datos.info[0].contents
-        this.numero1 = datos.info[0].numero
-        this.mail1 = datos.info[0].mail
-        this.primerDia1 = datos.info[0].diaInicio
-        this.ultimoDia1 = datos.info[0].diaFinal
-        this.horaInicio1 = datos.info[0].horaInicio
-        this.horaFinal1 = datos.info[0].horaFinal
-
-        this.titulo2 = datos.info[1].subtitle
-        this.descripcion2 = datos.info[1].contents
-        this.numero2 = datos.info[1].numero
-        this.mail2 = datos.info[1].mail
-        this.primerDia2 = datos.info[1].diaInicio
-        this.ultimoDia2 = datos.info[1].diaFinal
-        this.horaInicio2 = datos.info[1].horaInicio
-        this.horaFinal2 = datos.info[1].horaFinal
-    }
 }
 </script>
 

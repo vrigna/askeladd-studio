@@ -4,171 +4,154 @@
         <h2 class="font-weight-bold text-primary display-4 text-center" style="font-family: Poppins">Nuestra cultura</h2>
         <h4 class="text-center" style="font-family: Poppins">Contada por nuestro propio equipo</h4>
         <br><br>
-        <CultureCard
-            :imagen="face_carlos2"
-            :title="title_carlos"
-            :contents="contents_carlos" 
-            :name="name_carlos" 
-            :job="job_carlos" />
+
+       <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="carlosProfile" class="bg-primary rounded-circle img-profile">
+                        <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PERSEVERANCIA</h4>
+                    <p>Los unicos capaces de marcar una diferencia significativa somos nosotros, perseguimos la superación personal y cuando creemos que la alcanzamos encontramos una nueva razón para no detenernos. En Askeladd buscamos el perfeccionamiento mediante la empatia, el respeto y la formación continua de cada uno de nuestros integrantes.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">Carlos Brignardello</span>
+                    <p class="text-primary d-block font-weight-bold"> Lider Tecnico</p>
+                </div>
+            </div>
+        </div>
 
         <br>
-
-        <CultureCard 
-            :imagen="face_jazzmin"
-            :title="title_jazzmin" 
-            :contents="contents_jazzmin" 
-            :name="name_jazzmin" 
-            :job="job_jazzmin"/>
-
+        <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="jazzProfile" class="bg-primary rounded-circle img-profile">
+                            <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">KEEP LEARN</h4>
+                    <p>En el mundo TI es fundamental reinventarse conforme a los avances y nuevas tecnologías que surgen, es por eso que en Askeladd creemos que la mejor manera de apuntar a la excelencia y la innovación, es, mantenerse curioso y aprendiendo constantemente. Apoyamos la idea de compartir conocimiento y avanzar en conjunto.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">Jazmin Trujillo</span>
+                    <p class="text-primary d-block font-weight-bold">Desarrolladora</p>
+                </div>
+            </div>
+        </div>
         <br>
 
-        <CultureCard
-            :imagen="face_josh"
-            :title="title_josh" 
-            :contents="contents_josh" 
-            :name="name_josh" 
-            :job="job_josh"/>
-
-        <br>    
-
-        <CultureCard 
-            :imagen="face_juan2"
-            :title="title_juan" 
-            :contents="contents_juan" 
-            :name="name_juan" 
-            :job="job_juan"/>
-
+         <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="davidProfile" class="bg-primary rounded-circle img-profile">
+                        <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CONFIANZA</h4>
+                    <p>Puedes tener seguridad de que todo resultará tal y mejor de lo que se espera cuando trabajas con las personas correctas. En Askeladd respaldamos apasionadamente nuestros proyectos; vive la experiencia de un ambiente sin igual, con resultados únicos impulsados por la cultura de nuestro equipo.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">David Carrizo</span>
+                    <p class="text-primary d-block font-weight-bold">Cientifico de Datos</p>
+                </div>
+            </div>
+        </div>
         <br>
 
-        <CultureCard 
-            :imagen="face_german"
-            :title="title_german" 
-            :contents="contents_german" 
-            :name="name_german" 
-            :job="job_german"/>
+        <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="juanProfile" class="bg-primary rounded-circle img-profile">
+                        <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">CREATIVIDAD</h4>
+                    <p>La curiosidad, la incertidumbre de no saber que vendra por delante y poder descubrir como mejorar los procesos para planificar soluciones que generen nuevas oportunidades, nos permite consolidar nuestra creatividad. En Askeladd podemos crecer y madurar conocimiento por medio del trabajo en equipo.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">Juan Vasquez</span>
+                    <p class="text-primary d-block font-weight-bold">Desarrollador</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="germanProfile" class="bg-primary rounded-circle img-profile">
+                        <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">PRODUCTIVIDAD</h4>
+                    <p>Para ser productivo hay que tener el compromiso de formular cambios, generarlos y luego pulirlos, apuntando siempre a la excelencia en base a la disciplina. Askeladd permite llegar a la verdad mediante investigación, utilizando procesos logicos, ordenados y claros. Buscando siempre retro alimentar a los demás.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">German Tabilo</span>
+                    <p class="text-primary d-block font-weight-bold">Desarrollador</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <figure class="col-lg-4 col-md-12 text-center">
+                    <div :style="edisonProfile" class="bg-primary rounded-circle img-profile">
+                        <div class="w-100 h-100 bg-primary rounded-circle" style="opacity: 0.5"></div>
+                    </div>
+                </figure>
+                <div class="col-lg-1 d-lg-block d-none"/>
+                <div class="col-lg-7 col-md-12">
+                    <h4 class="font-weight-bold text-primary display-5 " style="font-family: Poppins">INNOVACIÓN</h4>
+                    <p>La creatividad, el conocimiento y la inspiración son las herramientas que nos permiten construir el camino hacia el futuro que queremos crear. En Askeladd tenemos el talento para transformar tu negocio en lo que buscas. Si tú puedes imaginarlo, nosotros podemos crearlo.                                                                                                             - “No tengo talentos especiales, yo sólo soy apasionadamente curioso”.</p>
+                    <span class="d-block font-weight-bold" style="font-family: Poppins">Edison Vasquez</span>
+                    <p class="text-primary d-block font-weight-bold">Jefe industrial</p>
+                </div>
+            </div>
+        </div>
 
         <br>
-        
-        <CultureCard 
-            :imagen="face_edison"
-            :title="title_edison" 
-            :contents="contents_edison" 
-            :name="name_edison" 
-            :job="job_edison"/>
+ 
       </div>
 
   </div>
 </template>
 
 <script>
+import carlosProfile from '@/assets/carlos2.png'
+import jazzProfile from '@/assets/jazz.png'
+import davidProfile from '@/assets/josh.png'
+import juanProfile from '@/assets/juan2.png'
+import germanProfile from '@/assets/german.png'
+import edisonProfile from '@/assets/edison.png'
 
-import CultureCard from '@/components/CultureCard.vue'
-import axios from 'axios'
 
 export default {
     name: 'Culture',
 
     data(){
         return{
-            title_carlos: null,
-            contents_carlos: null,
-            name_carlos: null,
-            job_carlos: null,
-            imagen_carlos: null,
-            faceName_carlos: null,
-
-            title_jazzmin: null,
-            contents_jazzmin: null,
-            name_jazzmin: null,
-            job_jazzmin: null,
-            imagen_jazzmin: null,
-            faceName_jazzmin: null,
-
-            title_josh: null,
-            contents_josh: null,
-            name_josh: null,
-            job_josh: null,
-            imagen_josh: null,
-            faceName_josh: null,
-
-            title_juan: null,
-            contents_juan: null,
-            name_juan: null,
-            job_juan: null,
-            imagen_juan: null,
-            faceName_juan: null,
-
-            title_german: null,
-            contents_german: null,
-            name_german: null,
-            job_german: null,
-            imagen_german: null,
-            faceName_german: null,
-
-            title_edison: null,
-            contents_edison: null,
-            name_edison: null,
-            job_edison: null,
-            imagen_edison: null,
-            faceName_edison: null
+            carlosProfile: `background-image: url(${carlosProfile})`,
+            jazzProfile: `background-image: url(${jazzProfile})`,
+            davidProfile: `background-image: url(${davidProfile})`,
+            juanProfile: `background-image: url(${juanProfile})`,
+            germanProfile: `background-image: url(${germanProfile})`,
+            edisonProfile: `background-image: url(${edisonProfile})`,
         }
     },
 
     components: {
-        CultureCard,
     },
     
-    async mounted() {
-        let datos = await axios.get('api/personal.json')
-        datos = datos.data
-
-        this.title_carlos = datos.personal[0].title
-        this.contents_carlos = datos.personal[0].contents
-        this.name_carlos = datos.personal[0].name
-        this.job_carlos = datos.personal[0].job
-        this.face_carlos = datos.personal[0].imagen
-        this.face_carlos2 = datos.personal[0].imagen2
-
-        this.title_jazzmin = datos.personal[1].title
-        this.contents_jazzmin = datos.personal[1].contents
-        this.name_jazzmin = datos.personal[1].name
-        this.job_jazzmin = datos.personal[1].job
-        this.face_jazzmin = datos.personal[1].imagen
-        this.face_jazzmin2 = datos.personal[1].imagen2
-
-        this.title_josh = datos.personal[2].title
-        this.contents_josh = datos.personal[2].contents
-        this.name_josh = datos.personal[2].name
-        this.job_josh = datos.personal[2].job
-        this.face_josh = datos.personal[2].imagen
-        this.face_josh2 = datos.personal[2].imagen2
-
-        this.title_juan = datos.personal[3].title
-        this.contents_juan = datos.personal[3].contents
-        this.name_juan = datos.personal[3].name
-        this.job_juan = datos.personal[3].job
-        this.face_juan = datos.personal[3].imagen
-        this.face_juan2 = datos.personal[3].imagen2
-
-        this.title_german = datos.personal[4].title
-        this.contents_german = datos.personal[4].contents
-        this.name_german = datos.personal[4].name
-        this.job_german = datos.personal[4].job
-        this.face_german = datos.personal[4].imagen
-        this.face_german2 = datos.personal[4].imagen2
-
-        this.title_edison = datos.personal[5].title
-        this.contents_edison = datos.personal[5].contents
-        this.name_edison = datos.personal[5].name
-        this.job_edison = datos.personal[5].job
-        this.face_edison = datos.personal[5].imagen
-
-    }
-
-
 }
 </script>
 
-<style>
-
+<style scoped>
+    .img-profile{
+        background-position: center; background-size: cover; width: 250px; height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
 </style>
