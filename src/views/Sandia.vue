@@ -3,11 +3,11 @@
     <div class="container d-flex justify-content-center align-items-center vh-100">
       <div class="rectangulo backg border-radius rounded w-100 align-items-center mt-5">
         <div class="row m-5 ">
-            <div class="col">
+            <div class="col d-lg-block d-none">
               <img 
                   :src="require('@/assets/Sandias.png')"
                   class="sandia"
-                  style="height: 70vh;"
+                  style="height: 70vh; margin: -20% 0"
               >
             </div>
             <div class="col">
@@ -41,5 +41,6 @@ export default {
   }
   .backg{
     background-color: #3C3B3F;
+    min-height: 350px;
   }
 </style>
