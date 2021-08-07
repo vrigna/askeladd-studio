@@ -1,15 +1,19 @@
 <template>
-  <div class="vh-100 bg-dark">
+  <div class="vh-100 bg-dark font">
     <div class="container d-flex justify-content-center align-items-center vh-100">
       <div class="rectangulo backg border-radius rounded w-100 align-items-center mt-5">
         <div class="row m-5 ">
             <div class="col">
-              
+              <img 
+                  :src="require('@/assets/Sandias.png')"
+                  class="sandia"
+                  style="height: 70vh;"
+              >
             </div>
             <div class="col">
-              <h1>Digitaliza tu sandia</h1>
+              <h1 class="text-white">Digitaliza tu sandia</h1>
               <h2 class="text-primary">la explicación</h2>
-              <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              <p class="mt-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur, consectetur. Expedita, aperiam quisquam sapiente qui 
                 nostrum et ut tempora magnam repudiandae! Enim culpa atque quas 
                 neque! Dolorum eveniet commodi impedit.</p>
@@ -27,6 +31,14 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  .font{
+    font-family: 'Poppins';
+  }
+  .sandia {
+    position: absolute;
+  }
   .backg{
     background-color: #3C3B3F;
   }
