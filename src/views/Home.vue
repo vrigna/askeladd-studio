@@ -32,7 +32,6 @@
     <Team />
     <Culture />
     <Content />
-    <Contact />
     <Footer />
   </div>
 </template>
@@ -43,7 +42,6 @@ import Sandia from '@/views/Sandia.vue'
 import Content from '@/views/ContentView.vue'
 import Team from '@/views/Team.vue'
 import Culture from '@/views/Culture.vue'
-import Contact from '@/views/Contact.vue'
 import Footer from '@/components/Footer.vue'
 import MainImage from '@/assets/main.jpg'
 
@@ -55,7 +53,6 @@ export default {
     Team,
     Culture,
     Content,
-    Contact,
     Footer,
   },
   data() {

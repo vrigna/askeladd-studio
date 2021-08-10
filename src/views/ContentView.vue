@@ -5,15 +5,31 @@
         <div class="col-lg-6 col-md-12">
           <br><br>
           <div class="contenedor-img">
+            <!-- 
+
             <img 
                 :src="require('@/assets/contentimg.jpeg')" 
                 :alt="name" 
                 class="h-60 w-100 mb-4 rounded img-content" 
             >
-            <h3 class="text-img1">Contenido</h3>
-            <p class="text-img2">Repositorio de contenido, con aportes de cada miembro de Askeladd. Aprende con nosotros!</p>
+            -->
             
-            <p class="font-weight-bold text-img3">Accede al contenido en Notion</p>
+            <div :style="notionContent" style="height: 350px;background-size: contain; background-repeat: round;">
+              <div class="bg-dark h-100" style="opacity: .5;">
+                <div class="h-50 bg-dark">
+
+                </div>
+                <div class="px-5 text-light">
+                  <h3 >Contenido</h3>
+                  <p >Repositorio de contenido, con aportes de cada miembro de Askeladd. Aprende con nosotros!</p>
+                  
+                  <p class="font-weight-bold">Accede al contenido en Notion</p>
+
+                </div>
+
+              </div>
+
+            </div>
           </div>
 
         </div>
@@ -50,43 +66,20 @@
 </template>
 
 <script>
-export default {
+import notionContent from '@/assets/contentimg.jpeg'
 
+export default {
+  data() {
+    return {
+      notionContent: `background-image: url(${notionContent})`,
+    }
+  },
 }
 </script>
 
 <style scooped>
 hr {
-  color: black;
-  background-color: black; 
-}
-.img-content {
-  height: 21rem;
-  filter: grayscale(100%);
-  
-}
-
-.contenedor-img{
-  position: relative;
-}
-
-.text-img1{
-    position: absolute;
-    margin:1rem;
-    top: 10rem;
-    color:white;
-
-}
-.text-img2{
-    position: absolute;
-    margin:1rem;
-    top: 12rem;
-    color:white;
-}
-.text-img3{
-    position: absolute;
-    margin:1rem;
-    top: 15rem;
-    color:white;
+  color: #333;
+  background-color: #333; 
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="d-flex align-items-center bg-light pb-5" id="contact">
+  <div class="d-flex min-vh-100 align-items-center bg-light pb-5" id="contact">
 
     <div class="container">
       <br>
