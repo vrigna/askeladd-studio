@@ -5,8 +5,17 @@
       <div class="bg-light">
         <div class="row min-vh-100 container-fluid m-0 p-0">
           <div class="col-lg-6 col-md-12 d-flex align-items-center">
-            <div class="mx-auto main__container">
-              <h1 class="font-weight-bold" style="font-family: Poppins">Digitaliza tu <span class=" text-primary">sandia</span></h1>
+            <div class="mx-auto main__container container-text">
+              <h1 class="font-weight-bold" style="font-family: Poppins">
+                Digitaliza tu 
+                <div class="words">
+                  <span>sandia</span>
+                  <span>empresa</span>
+                  <span>negocio</span>
+                  <span>idea</span>
+                  <span>proyecto</span>
+                </div>
+              </h1>
               <p>Somos un estudio de desarrollo digital basado en las nuevas tecnologías, conformado de un equipo de expertos apasionados por el diseño, la programación y la creatividad preparados para construir tú idea.</p>
               <p>En <strong>Askeladd Studio</strong> desarrollamos soluciones unicas e innovadoras combinando la ingeniería del desarrollo y la creatividad del diseño con una cultura unica de libertad creativa y continuo aprendizaje.</p>
               <div class="d-md-flex justify-content-between">
@@ -93,5 +102,103 @@ export default {
 .btn_rounded{
   border-radius: 100px;
 }
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    font-weight: bolder;
+}
+
+/* p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+} */
+
+/* button {
+    padding: 15px 20px;
+    font-size: 20px;
+    background: #cc1;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+} */
+
+.words {
+    display: inline-block;
+    color: #734EDC;
+}
+
+.words span {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    overflow: hidden;
+    animation: change-text 10s linear infinite;
+}
+
+.words span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.words span:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.words span:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.words span:nth-child(4) {
+    animation-delay: 6s;
+}
+
+.words span:nth-child(5) {
+    animation-delay: 8s;
+}
+
+@keyframes change-text {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);    
+    }
+
+    2% {
+        opacity: 1;
+        transform: translateY(0px);    
+    }
+
+    18% {
+        opacity: 1;
+        transform: translateY(0px);    
+    }
+
+    20% {
+        opacity: 0;
+        transform: translateY(50px);    
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(50px);    
+    }
+}
+
 
 </style>
