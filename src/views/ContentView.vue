@@ -66,7 +66,7 @@
 </template>
 
 <script>
-import notionContent from '@/assets/contentimg.jpeg'
+import notionContent from '@/assets/background/contentimg.jpeg'
 
 export default {
   data() {

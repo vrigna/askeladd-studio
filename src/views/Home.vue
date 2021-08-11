@@ -52,7 +52,7 @@ import Content from '@/views/ContentView.vue'
 import Team from '@/views/Team.vue'
 import Culture from '@/views/Culture.vue'
 import Footer from '@/components/Footer.vue'
-import MainImage from '@/assets/main.jpg'
+import MainImage from '@/assets/background/main.jpg'
 
 export default {
   name: 'Home',
@@ -103,42 +103,10 @@ export default {
   border-radius: 100px;
 }
 
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container-text {
-    width: 80%;
-    margin: 0 auto;
-}
-
 h1 {
     position: relative;
     font-weight: bolder;
 }
-
-/* p {
-    font-size: 20px;
-    line-height: 30px;
-    padding-right: 150px;
-    padding-bottom: 15px;
-} */
-
-/* button {
-    padding: 15px 20px;
-    font-size: 20px;
-    background: #cc1;
-    border: none;
-    outline: none;
-    font-weight: bolder;
-    color: black;
-} */
 
 .words {
     display: inline-block;

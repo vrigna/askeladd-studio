@@ -118,13 +118,13 @@
 </template>
 
 <script>
-import carlosProfile from '@/assets/carlos2.png'
-import jazzProfile from '@/assets/jazz.png'
-import davidProfile from '@/assets/josh.png'
-import juanProfile from '@/assets/juan2.png'
-import germanProfile from '@/assets/german.png'
-import edisonProfile from '@/assets/edison.png'
-import askeladdBackground from '@/assets/askeladd-background.png'
+import carlosProfile from '@/assets/profile/carlos2.png'
+import jazzProfile from '@/assets/profile/jazz.png'
+import davidProfile from '@/assets/profile/josh.png'
+import juanProfile from '@/assets/profile/juan2.png'
+import germanProfile from '@/assets/profile/german.png'
+import edisonProfile from '@/assets/profile/edison.png'
+import askeladdBackground from '@/assets/background/askeladd-background.png'
 
 export default {
     name: 'Culture',

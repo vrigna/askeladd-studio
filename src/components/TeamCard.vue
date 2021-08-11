@@ -1,7 +1,7 @@
 <template>
     <div class="text-dark my-5 px-4">
         <img 
-            :src="require('@/assets/' + faceName + '')" 
+            :src="require('@/assets/profile/' + faceName + '')" 
             :alt="name" 
             class="h-100 w-100 rounded-circle mb-4" 
             style="height: 100px;"

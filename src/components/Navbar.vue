@@ -11,7 +11,10 @@
                         <router-link to="/" class="nav-link text-primary">Home</router-link>
                     </li>
                     <li class="nav-item font-weight-bold">
-                        <router-link to="/contact" class="nav-link">Contact</router-link>
+                        <router-link to="/content" class="nav-link">Contenido</router-link>
+                    </li>
+                    <li class="nav-item font-weight-bold">
+                        <router-link to="/contact" class="nav-link">Contacto</router-link>
                     </li>
                 </ul>
             </div>
