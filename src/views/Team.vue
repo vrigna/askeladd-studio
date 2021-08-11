@@ -7,7 +7,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <TeamCard faceName="carlos.png" name="Carlos Brignardello" rol="Full Stack Developer"/>
+          <TeamCard github="vrigna" faceName="carlos.png" name="Carlos Brignardello" rol="Full Stack Developer"/>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
           <TeamCard faceName="edison.png" name="Edison Vasquez" rol="Director de Gestión"/>
@@ -16,7 +16,7 @@
           <TeamCard faceName="josh2.png" name="David Carrizo" rol="Back End Developer"/>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <TeamCard faceName="juan.png" name="Juan Vasquez" rol="Front End Developer"/>
+          <TeamCard github="rufonestti" faceName="juan.png" name="Juan Vasquez" rol="Front End Developer"/>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
           <TeamCard faceName="german2.png" name="German Tabilo" rol="Back End Developer"/>

@@ -8,7 +8,16 @@
             <div class="d-none d-lg-block " id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item font-weight-bold">
-                        <router-link to="/" class="nav-link text-primary">Home</router-link>
+                        <router-link to="/" class="nav-link">Home</router-link>
+                    </li>
+                    <li class="nav-item font-weight-bold">
+                        <router-link to="/services" class="nav-link">Servicios</router-link>
+                    </li>
+                    <li class="nav-item font-weight-bold">
+                        <router-link to="/works" class="nav-link">Trabajos</router-link>
+                    </li>
+                    <li class="nav-item font-weight-bold">
+                        <router-link to="/culture" class="nav-link">Cultura</router-link>
                     </li>
                     <li class="nav-item font-weight-bold">
                         <router-link to="/content" class="nav-link">Contenido</router-link>
