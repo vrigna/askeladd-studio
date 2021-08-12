@@ -19,7 +19,7 @@ const routes = [
   {
     path: '/content',
     name: 'Content',
-    component: () => import('../views/ContentView.vue')
+    component: () => import('../views/ContentPosts.vue')
   },
   {
     path: '/services',

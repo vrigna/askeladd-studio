@@ -3,7 +3,7 @@
     <div class="">
     <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light shadow p-3 bg-body rounded">
         <div class="container fluid justify-content-evenly">
-            <img alt="Askeladd logo" src="../assets/logo.png" width="220px">
+            <img alt="Askeladd logo" src="../assets/logo.png" height="40px">
             
             <div class="d-none d-lg-block " id="navbarNav">
                 <ul class="navbar-nav">
