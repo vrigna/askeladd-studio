@@ -6,17 +6,27 @@
             <div class="col d-lg-block d-none">
               <img 
                   :src="require('@/assets/Sandias.png')"
-                  class="sandia"
-                  style="height: 70vh; margin: -20% 0"
+                  class="flotante"
+                  style="height: 70vh; margin: -12rem 0"
               >
             </div>
             <div class="col">
-              <h1 class="text-white">Digitaliza tu sandia</h1>
-              <h2 class="text-primary">la explicación</h2>
-              <p class="mt-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              <div class="flotante w-75">
+                <div class="bg-dark text-white button-top p-2 text-center pb-0 w-75">
+                  <p>activa la creatividad</p>
+                </div>
+              </div>
+              <h1 class="text-white text-right">Digitaliza tu sandia</h1>
+              <h2 class="text-primary text-right">la explicación</h2>
+              <p class="mt-4 text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur, consectetur. Expedita, aperiam quisquam sapiente qui 
                 nostrum et ut tempora magnam repudiandae! Enim culpa atque quas 
                 neque! Dolorum eveniet commodi impedit.</p>
+              <div class="flotante d-flex justify-content-end container">
+                <div class="bg-white button-bottom p-2 text-center mb-0 w-50">
+                  <p>activa la creatividad</p>
+                </div>
+              </div>
             </div>
         </div>
       </div>
@@ -36,8 +46,17 @@ export default {
   .font{
     font-family: 'Poppins';
   }
-  .sandia {
+  .flotante {
     position: absolute;
+  }
+  .button-top {
+    border-radius: 2em;
+    margin-top: -5rem;
+    box-shadow: 2px 2px 5px rgb(14, 14, 14);;
+  }
+  .button-bottom {
+    border-radius: 2em;
+    margin-top: 3rem;
   }
   .backg{
     background-color: #3C3B3F;
