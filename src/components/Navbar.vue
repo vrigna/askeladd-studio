@@ -13,9 +13,9 @@
                     <li class="nav-item font-weight-bold">
                         <router-link to="/services" class="nav-link">Servicios</router-link>
                     </li>
-                    <li class="nav-item font-weight-bold">
+                    <!-- <li class="nav-item font-weight-bold">
                         <router-link to="/works" class="nav-link">Trabajos</router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item font-weight-bold">
                         <router-link to="/culture" class="nav-link">Cultura</router-link>
                     </li>

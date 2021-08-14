@@ -19,8 +19,8 @@
               <p>Somos un estudio de desarrollo digital basado en las nuevas tecnologías, conformado de un equipo de expertos apasionados por el diseño, la programación y la creatividad preparados para construir tú idea.</p>
               <p>En <strong>Askeladd Studio</strong> desarrollamos soluciones unicas e innovadoras combinando la ingeniería del desarrollo y la creatividad del diseño con una cultura unica de libertad creativa y continuo aprendizaje.</p>
               <div class="d-md-flex mt-5 justify-content-between">
-                <a href="" class="w-100 mr-5 bg-primary text-white p-4 btn_rounded text-decoration-none h4-md d-block text-center">Sobre Nosotros</a>
-                <a href="" class="w-100 bg-secondary text-white p-4 btn_rounded text-decoration-none h4-md d-block text-center my-md-0 my-3">Contactanos</a>
+                <a href="" class="w-100 mr-5 bg-primary text-white p-4 btn_rounded text-decoration-none h5 text-uppercase d-block text-center mb-0">servicios</a>
+                <a href="" class="w-100 bg-secondary text-white p-4 btn_rounded text-decoration-none h5 text-uppercase d-block text-center my-md-0 mt-3">contenido</a>
               </div>
 
             </div>
