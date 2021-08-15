@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white border mt-4">
-    <div class="bg-primary rounded-top" style="height: 200px;">
+  <div class="bg-light">
+    <div class="bg-dark rounded-top" style="height: 200px;">
 
     </div>
-    <div class="p-4">
+    <div class="p-4 border">
       <div>
         <span class="small font-weight-bold text-secondary">{{ author }}</span>
       </div>
